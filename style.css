@@ -1,0 +1,121 @@
+@font-face {
+    font-family: botsmaticRegular;
+    src: url(/fonts/botsmaticRegular.ttf);
+}
+
+@font-face {
+    font-family: botsmaticOutlineRegular;
+    src: url(/fonts/botsmaticOutlineRegular.ttf);
+}
+
+@font-face {
+    font-family: botsmaticOutlineItalic;
+    src: url(/fonts/botsmaticOutlineItalic.ttf);
+}
+
+@font-face {
+    font-family: barcadeBrawlRegular;
+    src: url(/fonts/barcadeBrawlRegular-.ttf);
+}
+
+@font-face {
+    font-family: eightBitDragonRegular;
+    src: url(/fonts/eightBitDragonRegular.ttf);
+}
+
+@font-face {
+    font-family: superLegendBoyRegular;
+    src: url(/fonts/superLegendBoyRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width:100%;
+}
+
+.aboveTheFold {
+    position: relative;
+    filter: brightness(0.6);
+    
+}
+
+.aboveTheFold>video {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: fill;
+    z-index: -1;
+    filter: blur(4px);
+
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFBF00;
+    height: 6vh;
+    z-index: 1;
+
+}
+
+nav>p {
+    margin: 0;
+    color: #FF7000;
+    font-family: botsmaticRegular;
+    font-size: 2rem;
+    line-height: 6vh;
+}
+
+nav > ul{
+    margin: 0;
+    line-height: 6vh;
+}
+
+nav > ul > li{
+    list-style: none;
+    color: #FFBF00;
+    font-family: eightBitDragonRegular;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #FF7000;
+    transition: all 250ms;
+}
+
+nav > ul > li > a:hover{
+    color: #10A19D;
+    border-bottom: #540375 3px solid;
+}
+
+
+nav > ul > li >a:active{
+    color: #540375;
+}
+
+nav a:visited{
+    color: #FF7000;
+}
+
+.titleAndText{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFBF00;
+}
+
+h1{
+    font-family: botsmaticRegular; 
+
+}
+
+.titleAndText p{
+    font-family: superLegendBoyRegular;
+    color: #FFBF00;
+    font-size: 1rem;
+}
