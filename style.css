@@ -31,13 +31,13 @@
 body {
     margin: 0;
     padding: 0;
-    max-width:100%;
+    max-width: 100%;
 }
 
 .aboveTheFold {
     position: relative;
     filter: brightness(0.6);
-    
+
 }
 
 .aboveTheFold>video {
@@ -51,7 +51,7 @@ body {
     filter: blur(4px);
 }
 
-.aboveTheFold img{
+.aboveTheFold img {
     height: 100vh;
     width: 100%;
     position: absolute;
@@ -74,58 +74,119 @@ nav {
 
 nav>p {
     margin: 0;
-    color: #FF7000;
+    color: #540375;
     font-family: botsmaticRegular;
     font-size: 2rem;
-    
+
 }
 
-nav > ul{
+nav>ul {
     margin: 0;
-    
+
 }
 
-nav > ul > li{
+nav>ul>li {
     list-style: none;
     color: #FFBF00;
     font-family: eightBitDragonRegular;
 }
 
-nav a:link{
+nav a:link {
     text-decoration: none;
     color: #FF7000;
     transition: all 250ms;
 }
 
-nav > ul > li > a:hover{
+nav>ul>li>a:hover {
     color: #10A19D;
     border-bottom: #540375 3px solid;
 }
 
 
-nav > ul > li >a:active{
+nav>ul>li>a:active {
     color: #540375;
 }
 
-nav a:visited{
+nav a:visited {
     color: #FF7000;
 }
 
-.titleAndText{
+.titleAndText {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #FFBF00;
 }
 
-h1{
-    font-family: botsmaticRegular; 
+h1 {
+    font-family: botsmaticRegular;
 
 }
 
-.titleAndText p{
+.titleAndText p {
     font-family: superLegendBoyRegular;
     color: #FFBF00;
     font-size: 1rem;
+}
+
+.restOfPage{
+    position: absolute;
+    top: 100vh;
+}
+
+.visitOurWorld{
+    background-color: #FFBF00;
+}
+
+.visitOurWorld h3{
+    color: #540375;
+    font-family: barcadeBrawlRegular;
+}
+
+.visitOurWorld p{
+    color: #540375;
+    font-family: superLegendBoyRegular;
+    font-size: 1.3rem;
+    border-bottom: #540375 solid 4px;
+}
+
+.visitOurWorld .secondaryText{
+    color: black;
+    font-size: 1rem;
+    border: none;
+}
+
+
+.smallBox{
+    width: 250px;
+    height: 150px;
+    border: black solid 2px;
+    box-shadow: 0px 4px 8px 1px #000;
+}
+
+.smallBox p{
+    border-bottom: none;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+#games{
+    font-size: 2.5rem;
+    color: #540375;
+}
+
+#genres{
+    font-size: 2.5rem;
+    color: #540375;
+}
+
+#platforms{
+    font-size: 2.5rem;
+    color: #540375;
+}
+
+.smallBox i{
+    color: #000;
+    font-size: 2rem;
 }
